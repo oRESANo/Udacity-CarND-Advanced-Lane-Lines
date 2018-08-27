@@ -1,8 +1,5 @@
-
----
-
 **Advanced Lane Finding Project**
-
+---
 The goals / steps of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
@@ -16,13 +13,16 @@ The goals / steps of this project are the following:
 
 ## Installation
 ---
-FYI
+N/A
 
 ## theory of pipeline
 ---
-### Camera Calibration
+The pipeline is included by multiple functions,
+they are camera calibration, etc...
 
-##### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
+### Camera Calibration
+---
+#### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
 The code for this step is contained in the first code cell of the IPython notebook located in "./examples/example.ipynb" (or in lines # through # of the file called `some_file.py`).  
 
@@ -33,7 +33,7 @@ Project 2 - advanced lane detection
 ![alt text][image1]
 
 ### Pipeline (single images)
-
+---
 #### 1. Provide an example of a distortion-corrected image.
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
@@ -91,18 +91,18 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 ![alt text][image6]
 
----
+
 
 ### Pipeline (video)
-
+---
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 Here's a [link to my video result](./project_video.mp4)
 
----
+
 
 ### Discussion
-
+---
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
