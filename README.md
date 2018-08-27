@@ -1,4 +1,4 @@
-## **Advanced Lane Finding Project**
+## Advanced Lane Finding Project
 
 The goals / steps of this project are the following:
 
@@ -20,7 +20,7 @@ N/A
 The pipeline is included by multiple functions,
 they are camera calibration, etc...
 
-#### Camera Calibration
+### Camera Calibration
 
 #### 1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
@@ -32,7 +32,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 Project 2 - advanced lane detection
 ![alt text][image1]
 
-#### Pipeline (single images)
+### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
 
@@ -93,7 +93,7 @@ I implemented this step in lines # through # in my code in `yet_another_file.py`
 
 
 
-#### Pipeline (video)
+### Pipeline (video)
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
@@ -101,7 +101,7 @@ Here's a [link to my video result](./project_video.mp4)
 
 
 
-#### Discussion
+### Discussion
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
