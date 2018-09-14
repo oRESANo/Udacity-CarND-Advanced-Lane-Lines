@@ -46,8 +46,7 @@ belwo are original undistorted image and distortion-corrected image comaprison, 
 
 below are two examples of unwarped road images
 
-![](test_images/test1.jpg)
-![](output_images/road_output/test1.jpg)
+![](output_images/road_output/road_comparison.jpg)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
