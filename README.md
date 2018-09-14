@@ -30,7 +30,13 @@ finally we can use these parameters to calibrate the road images.
 
 below are two examples of camera calibrations
 
-![](output_images/camera_cal_output/calibration3.jpg) ![](output_images/camera_cal_output/calibration6.jpg)
+![](output_images/camera_cal_output/calibration3.jpg)
+![](output_images/camera_cal_output/calibration3.jpg)
+
+below are comparison from original camera picture to distortion corrected picture
+
+![](camera_cal/calibration3.jpg)
+![](output_images/camera_cal_output/calibration6.jpg)
 
 ### Pipeline (single images)
 
@@ -40,8 +46,7 @@ belwo are original undistorted image and distortion-corrected image comaprison, 
 
 below are two examples of unwarped road images
 
-![](output_images/camera_cal_output/warped3.jpg)
-![](output_images/camera_cal_output/warped6.jpg)
+![](output_images/camera_cal_output/warped3.jpg)![](output_images/camera_cal_output/warped6.jpg)
 ![](output_images/camera_cal_output/warped7.jpg)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
