@@ -35,8 +35,7 @@ below are two examples of camera calibrations
 
 below are comparison from original camera picture to distortion corrected picture
 
-![](camera_cal/calibration3.jpg)
-![](output_images/camera_cal_output/warped3.jpg)
+![](output_images/camera_cal_output/chesseboard_comparison.jpg)
 
 ### Pipeline (single images)
 
