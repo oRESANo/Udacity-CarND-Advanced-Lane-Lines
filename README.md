@@ -27,14 +27,22 @@ I started by copy the original image as 'undist', and I convert the image format
 once we get the image points on imput pictures and object points, by using _cv2.calibrateCamera_ function we can get the distortion parameters, mtx, dist, rvecs, tvecs, then using _cv2.undistort_ can get the undistorted picture.
 
 finally we can use these parameters to calibrate the road images.
-# _put some distortion corrected chessboard images here_
+
+below are two examples of camera calibrations
+
+![](output_images/camera_cal_output/calibration3.jpg) ![](output_images/camera_cal_output/calibration6.jpg)
 
 ### Pipeline (single images)
 
 #### 1. Provide an example of a distortion-corrected image.
 
 belwo are original undistorted image and distortion-corrected image comaprison, the most obvious place on the image is the car hood on the bottom edge of picture, the distortion-corrected image has less area of car hood.
-# _put some distortion corrected road images here_
+
+below are two examples of unwarped road images
+
+![](output_images/camera_cal_output/warped3.jpg)
+![](output_images/camera_cal_output/warped6.jpg)
+![](output_images/camera_cal_output/warped7.jpg)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
