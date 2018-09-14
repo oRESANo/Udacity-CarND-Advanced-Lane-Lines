@@ -45,6 +45,7 @@ below are comparison from original camera picture to distortion corrected pictur
 belwo are original undistorted image and distortion-corrected image comaprison, the most obvious place on the image is the car hood on the bottom edge of picture, the distortion-corrected image has less area of car hood.
 
 below are two examples of unwarped road images
+
 ![](test_images/test1.jpg)
 ![](output_images/road_output/test1.jpg)
 
