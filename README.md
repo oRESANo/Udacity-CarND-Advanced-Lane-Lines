@@ -50,7 +50,11 @@ below are two examples of unwarped road images
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
 I used a combination of absolute sobel gradients threshold along x, y direction, sobel gradients magitude threshold, sobel gradients direction threshold and HLS channel threshold, I tried multiple value combo and figure out the most confident threshold valve value, belows are the threshold value selection step by step.
-# _put some threshold value seleciton images here_
+
+![](output_images/threshold_output/undistorted_regional_road.jpg)
+![](output_images/threshold_output/xy_threshold.jpg)
+![](output_images/threshold_output/magitude_direction_threshold.jpg)
+![](output_images/threshold_output/hls_combined_threshold.jpg)
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
