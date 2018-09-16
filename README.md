@@ -112,10 +112,10 @@ good_right_inds = ((nonzeroy >= win_y_low) & (nonzeroy < win_y_high) & (nonzerox
 ```
 
 then all good pixels will be collected in the numpy array, and marked as red/blue color.
-# _put red/blue marked road lines image here_
 
 after all the iterations, we will get all good pixels in road, and by using function np.polyfit(), we can generate polynomial paramters for left/right driving lines, we split the image along the y direction evenly, and using the polynomial parameters to generate the x coordination and plot them on the image which are the polynomial curve for driving lines
-# _put polynomial curve road lines image here_
+
+![](output_images/detected_lines.jpg)
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -131,8 +131,8 @@ mid_curverad = (1+((2*mid_fit[0]*y_eval+mid_fit[1])**2)**(3//2))/(np.abs(2*mid_f
 When flip the source points and image points when you do the prespective transfrom from reginal masking road to plane view, you can easily get the Minv parameter set. 
 So that you can use cv2.warpPrespective() with Minv to convert the prespective transformed image back to the nomral camera image shape easily. 
 Then using the cv2.addWeighted() to combine the original image with the detected road lines
-# _put final result here_
 
+![](output_images/detected_road.jpg)
 
 
 ### Pipeline (video)
