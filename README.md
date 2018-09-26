@@ -138,7 +138,7 @@ Then using the cv2.addWeighted() to combine the original image with the detected
 ### Pipeline (video)
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
-Here's a [video result](output_vedios/project_video_output.mp4)
+Here's a [video result](output_videos/project_video_output.mp4)
 
 ### Discussion
 
