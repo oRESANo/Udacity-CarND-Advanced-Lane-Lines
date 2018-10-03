@@ -31,7 +31,6 @@ finally we can use these parameters to calibrate the road images.
 below are two examples of camera calibrations
 
 ![](output_images/camera_cal_output/calibration3.jpg)
-![](output_images/camera_cal_output/calibration3.jpg)
 
 below are comparison from original camera picture to distortion corrected picture
 
